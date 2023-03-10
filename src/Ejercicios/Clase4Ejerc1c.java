@@ -7,14 +7,10 @@ public class Clase4Ejerc1c {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 		
-			//Scanner scn = new Scanner(System.in);
-			//System.out.println ("Indique si desea orden ascendente (digite \"asc\") o descendente (digite \"desc\")"); 
-			//String orden = scn.nextLine();			
-			int[] numerosOrdenados = numeros(18,24,9," ");		 
+		 	
+		
 		System.out.println("Los numeros ordenados segun el pedido son:");
-		System.out.println(Arrays.toString(numerosOrdenados));
-	
+		System.out.println(Arrays.toString(numerosOrdenados));	
 	}
 		
 		public static int[] numeros(int n1, int n2, int n3, String orden) {			
